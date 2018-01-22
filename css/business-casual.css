@@ -1,0 +1,367 @@
+/*!
+ * Start Bootstrap - Business Casual (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: /*url('../img/fondo_pagina.jpg')*/ white no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: #000;
+}
+
+hr {
+    max-width: 400px;
+    border-color: #999999;
+}
+
+.brand,
+.address-bar {
+    display: none;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-family: 'Harabara, sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.img-full {
+    min-width: 100%;
+}
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+
+.brand-before {
+    margin: 15px 0;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+}
+
+.img-left {
+    float: none;
+    margin: 0 auto 0;
+}
+
+.img-right {
+    float: none;
+    margin: 0 auto 0;
+}
+
+footer {
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+footer p {
+    margin: 0;
+    padding: 50px 0;
+}
+
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        margin: 0;
+        padding: 30px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: #fff;
+    }
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-right {
+        float: right;
+        margin-left: 25px;
+    }
+    
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+    }
+
+    .navbar {
+        border-radius: 0;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 0;
+    }
+
+    .navbar-default {
+        border: none;
+        /*DTORO: CAMBIO DE COLOR BARRA DE NAVEGACIÓN*/
+        /*background: #fff;
+        background: rgba(255,255,255,0.9);*/
+        /*background: #808080;*/
+        background: rgba(128,128,128, 0.3);
+    }
+
+    .nav>li>a {
+        padding: 35px;
+    }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+/*menu flotante*/
+
+.btn-group-sm .btn-fab{
+  position: fixed !important;
+  right: 29px;
+}
+.btn-group .btn-fab{
+  position: fixed !important;
+  right: 20px;
+}
+#main{
+  bottom: 20px;
+}
+#mail{
+  bottom: 80px
+}
+#facebook{
+  bottom: 80px;
+  background: #2372a3;
+  color: #2372a3;
+  background-color: #2372a3;
+}
+#instagram{
+
+  bottom: 125px;
+  background-color: #bad0b8;
+  background-image: -webkit-linear-gradient(right, #FC7864, #FDA366);
+  background-image: -moz-linear-gradient(right, #FC7864, #FDA366);
+  background-image: -o-linear-gradient(right, #FC7864, #FDA366);
+  background-image: -ms-linear-gradient(right, #FC7864, #FDA366);
+  background-image: linear-gradient(right, #FC7864, #FDA366);
+}
+#sms{
+  bottom: 125px
+}
+#autre{
+  bottom: 170px
+}
+
+article { 
+  width: 100%; 
+  margin: 60px auto; 
+  text-align: center;
+  zoom: 2;
+}
+
+a svg:hover #facebook,
+a svg:hover #instagram { 
+  fill: #111;
+}
+
+a svg #facebook,
+a svg #instagram { 
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+/*menu flotante*/
+
+/*imagenes gonitas*/
+.portfolio-item {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  max-width: 530px;
+  margin: auto auto 1rem; }
+  .portfolio-item .caption {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(33, 37, 41, 0.2);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1; }
+    .portfolio-item .caption .caption-content {
+      color: #fff;
+      margin: auto 2rem 2rem; }
+      .portfolio-item .caption .caption-content h2 {
+        font-size: 0.8rem;
+        text-transform: uppercase; }
+      .portfolio-item .caption .caption-content p {
+        font-weight: 300;
+        font-size: 1.2rem; }
+  @media (min-width: 992px) {
+    .portfolio-item {
+      max-width: none;
+      margin: 0; }
+      .portfolio-item .caption {
+        -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
+        -webkit-clip-path: inset(0px);
+        clip-path: inset(0px); }
+        .portfolio-item .caption .caption-content {
+          transition: opacity 0.25s;
+          margin-left: 5rem;
+          margin-right: 5rem;
+          margin-bottom: 5rem; }
+      .portfolio-item img {
+        -webkit-transition: -webkit-clip-path 0.25s ease-out;
+        -webkit-clip-path: inset(-1px);
+        clip-path: inset(-1px); }
+      .portfolio-item:hover img {
+        -webkit-clip-path: inset(2rem);
+        clip-path: inset(2rem); }
+      .portfolio-item:hover .caption {
+        background-color: rgba(29, 128, 159, 0.9);
+        -webkit-clip-path: inset(2rem);
+        clip-path: inset(2rem); } }
+/*imagenes gonitas :v*/
+
+/* Map */
+
+.map {
+  height: 30rem; }
+
+@media (max-width: 992px) {
+  .map {
+    height: 75%; } }
+    
+/*letra el quiropractico*/
+
+@font-face {
+  font-family: 'Harabara';
+    src:  url('../fonts/Harabara-Bold.ttf.woff') format('woff'),
+    url('../fonts/Harabara-Bold.ttf.svg#Harabara-Bold') format('svg'),
+    url('../fonts/Harabara-Bold.ttf.eot'),
+    url('../fonts/Harabara-Bold.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*texto encima de imagen*/
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+.h2h { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+
+.h2hr { 
+   position: relative; 
+   top: 200px; 
+   right: 100; 
+   width: -100%; 
+}
+
+h2 span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(78, 131, 123); 
+   background: rgba(78, 131, 123, 0.7);
+   padding: 10px; 
+}
