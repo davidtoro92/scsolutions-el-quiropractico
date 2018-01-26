@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
 
@@ -32,7 +31,7 @@
 
 </head>
 
-<body>
+<body style="background: linear-gradient(white, #005954);">
 	<!--<div class="brand">Negocio Casual</div>
     <div class="address-bar">Calle de ejemplo #2718, Oficina 25, Santiago de Chile</div>-->
 	<!--<div class="brand" style="background: #f1f0ea; text-align: center;">-->
@@ -40,6 +39,7 @@
 		style="background: #005954; text-align: center; padding-left: 20px;">
 		<!--<img class="img-responsive img-border-right" src="img/logo_quiro_horizontal.png" alt="">-->
 		<a href="index.html"> <img class="img-responsive img-border-left" style="width: 300px" src="img/logo_quiro_horizontal.png" alt=""></a>
+		<div class="brand" style="visibility: hidden; font-size: 0px">EL QUIROPRACTICO CL FRANCISCO UBILLA</div>
 	</div>
 
 	<!-- Navigation -->
@@ -87,10 +87,10 @@
 		<!-- /.container -->
 	</nav>
 
-    <div class="container" id="faq1">
+    <div class="container">
 
-        <div class="row">
-            <div class="box">
+        <div class="row" id="faq1">
+            <div class="box" style="background-color: transparent;">
                 <!--<div class="col-lg-12">
                     <hr>
                     <h2 class="intro-text text-center">Blog de la
@@ -198,11 +198,11 @@
 		</div>
 	</div>-->
     
-    <footer style="background: #005954;">
+	<footer style="background-color: transparent;">
 		<div class="container">
-			<div class="box" style="background: #005954; text-align: center;">
+			<div class="box" style="background-color: transparent; text-align: center;">
 				<!--<button class="btn btn-success" style="width: 350px; font-size: 30px;font-family: Open sans;">Reserva tu hora</button> -->
-				<button class="btn btn-success"
+				<button class="btn btn-success" onclick="window.open('http://agendamiento.softwaredentalink.com/agendas/online/cacab0974db09ebb9bd1ce2c71b93da0d6b9f296')" 
 					style="width: 300px; font-size: 30px; /**/ position: center; top: 100; font-family: Harabara;">Reserva
 					tu hora</button>
 				<br> <br> 
@@ -215,12 +215,26 @@
 
 				<div class="footer-social-icons">
 				    <ul class="social-icons">
-				        <li><a href="" class="social-icon _20"> <i class="fa fa-facebook"></i></a></li>
-				        <li><a href="" class="social-icon _20"> <i class="fa fa-twitter"></i></a></li>
-				        <li><a href="" class="social-icon _20"> <i class="fa fa-youtube"></i></a></li>
-				        <li><a href="" class="social-icon _20"> <i class="fa fa-linkedin"></i></a></li>
+				        <li><a href="https://www.facebook.com/quiropracticofrancisco.ubilla" class="social-icon _20" target="_blank"> <i class="fa fa-facebook" style="padding-right: 18px; padding-left: 18px;"></i></a></li>
+				        <li><a href="https://twitter.com/ubilla_benghi" class="social-icon _20" target="_blank"> <i class="fa fa-twitter"></i></a></li>
+				        <!--<li><a href="" class="social-icon _20" target="_blank"> <i class="fa fa-youtube"></i></a></li>-->
+				        <li><a href="https://www.linkedin.com/in/fubilla/" class="social-icon _20" target="_blank"> <i class="fa fa-linkedin"></i></a></li>
+				        <li><a href="https://www.instagram.com/francisco.ubilla.benghi/" target="_blank" class="social-icon _20"> <i class="fa fa-instagram"></i></a></li>
 				    </ul>
 				</div>
+				<aside id="sticky-social" style="padding-top: 150px;">
+				    <ul>
+				        <li><a href="https://www.facebook.com/quiropracticofrancisco.ubilla" class="entypo-facebook" target="_blank"><span>Facebook</span></a></li>
+				        <li><a href="https://twitter.com/ubilla_benghi" class="entypo-twitter" target="_blank"><span>Twitter</span></a></li>
+				        <li><a href="https://www.instagram.com/francisco.ubilla.benghi/" target="_blank" class="social-icon _12 entypo-instagram2"> 
+				        		<i class="fa fa-instagram" style="padding-right: 10px; padding-left: 10px; background-color: #f09433; padding-bottom: 9px;"></i><span>Instagram</span>
+				        	</a>
+				        </li>
+				        <li><a href="https://www.linkedin.com/in/fubilla/" class="entypo-linkedin" target="_blank"><span>LinkedIn</span></a></li>
+				        <!--<li><a href="#" class="entypo-pinterest" target="_blank"><span>Pinterest</span></a></li>-->
+				    </ul>
+				</aside>
+
 			</div>
 		</div>
 	</footer>
@@ -235,11 +249,10 @@
 
 	<!-- Script to Activate the Carousel -->
 	<script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
+	    $('.carousel').carousel({
+	        interval: 5000 //changes the speed
+	    })
     </script>
-
 
 
 </body>

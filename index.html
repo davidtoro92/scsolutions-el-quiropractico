@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
 
@@ -37,7 +36,7 @@
 
 </head>
 
-<body>
+<body style="background: linear-gradient(white, #005954);">
 	<!--<div class="brand">Negocio Casual</div>
     <div class="address-bar">Calle de ejemplo #2718, Oficina 25, Santiago de Chile</div>-->
 	<!--<div class="brand" style="background: #f1f0ea; text-align: center;">-->
@@ -45,6 +44,7 @@
 		style="background: #005954; text-align: center; padding-left: 20px;">
 		<!--<img class="img-responsive img-border-right" src="img/logo_quiro_horizontal.png" alt="">-->
 		<a href="index.html"> <img class="img-responsive img-border-left" style="width: 300px" src="img/logo_quiro_horizontal.png" alt=""></a>
+		<div class="brand" style="visibility: hidden; font-size: 0px">EL QUIROPRACTICO CL FRANCISCO UBILLA</div>
 	</div>
 
 	<!-- Navigation -->
@@ -92,10 +92,10 @@
 		<!-- /.container -->
 	</nav>
 
-	<div class="container">
+    <div class="container">
 
 		<div class="row">
-			<div class="box">
+			<div class="box" style="background-color: transparent;">
 				<div class="col-lg-8 text-center" style="padding-bottom: 15px;">
 					<div id="carousel-example-generic" class="carousel slide">
 						<!-- Indicators -->
@@ -158,7 +158,7 @@
 				</div>
 				<div class="col-lg-4"
 					style="text-align: center; padding-bottom: 8px">
-					<a class="portfolio-item" href="https://agendamiento.softwaredentalink.com/agendas/agendamiento"> <span class="caption">
+					<a class="portfolio-item" target="_blank" href="http://agendamiento.softwaredentalink.com/agendas/online/cacab0974db09ebb9bd1ce2c71b93da0d6b9f296"> <span class="caption">
 							<span class="caption-content">
 								<h2
 									style="font-size: 50px; font-family: Harabara; text-transform: capitalize;text-shadow: 0 0 20px #428bca;">Reserva
@@ -180,23 +180,16 @@
 					</a>
 				</div>
 			</div>
-			<!--<div class="col-lg-15" style="text-align: center">
-                      <h2 class="brand-before">
-                            <small>Clínicas Quiroprácticas</small>
-                        </h2>
-                        <h1 class="brand-name">RAQUIS</h1>
-                 </div> -->
 		</div>
 
 		<div class="row">
-			<div class="box">
+			<div class="box" style="background-color: transparent;">
 				<div class="col-lg-12">
 					<hr>
 					<h2 class="intro-text text-center">
 						¿Qué es <strong>El Quiropráctico</strong>?
 					</h2>
 					<hr>
-					<!--<img class="img-responsive img-left" src="img/logo_raquis_small.png" alt="">-->
 					<hr class="visible-xs">
 					<br>
 					<p style="text-align: justify;">
@@ -268,7 +261,7 @@
 			</div>
 		</div>-->
 
-		<div class="row" >
+		<div class="row">
 			<hr>
 			<h2 class="intro-text text-center">
 				Nuestras <strong>especialidades</strong>?
@@ -340,27 +333,13 @@
 		</div>
 
 		<div class="row">
-			<div class="box">
+			<div class="box" style="background-color: transparent;">
 				<div class="col-lg-12">
 					<hr>
-					<h2 class="intro-text text-center">
+					<h2 class="intro-text text-center" style="color: white">
 						Nuestra <strong>Ubicación</strong>
 					</h2>
 					<hr>
-					<!--<p>Raquis nace como resultado del desconocimiento de la Quiropráctica por parte de la población, proponiendonos ser:
-
-                        <ul>
-                            <li>
-                                <p>Los referentes en soluciones asociadas a dolencias del sistema músculo esquelético y a los servicios de atención quiropráctica del país.</p>
-                            </li>
-                            <li>
-                                <p>La cadena de centros de atención quiropráctica más grande de Chile.</p>
-                            </li>
-                            <li>
-                                <p>Reconocidos por sus Servicios y Calidad de Atención.</p>
-                            </li>
-                        </ul>
-                    </p>-->
 					<section id="contact" class="map">
 						<iframe width="100%" height="100%" frameborder="0" scrolling="no"
 							marginheight="0" marginwidth="0"
@@ -373,14 +352,14 @@
 					<br>
 
 					<div class="col-md-8">
-						<p>
+						<p style="color: white">
 							Dirección: <strong>San Pío X, 2445, Of. 704, comuna de Providencia, Santiago</strong>
 						</p>
-						<p>
-							Telefono: <a href="tel:+56974081878"><strong>+56974081878</strong></a>
+						<p style="color: white">
+							Telefono: <a href="tel:+56974081878" style="color: white"><strong>+56974081878</strong></a>
 						</p>
-						<p>
-							Email: <strong><a href="mailto:contacto@inteq.cl">contacto@elquiropractico.cl</a></strong>
+						<p style="color: white">
+							Email: <strong><a href="mailto:contacto@inteq.cl" style="color: white">contacto@elquiropractico.cl</a></strong>
 						</p>
 					</div>
 				</div>
@@ -390,57 +369,11 @@
 	</div>
 	<!-- /.container -->
 
-	<!--<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-15">
-				<div class="btn-group-sm" id="mini-fab">
-
-					<a href="#" class="btn btn-warning btn-fab" data-toggle="tooltip"
-						data-placement="left" data-original-title="Instagram"
-						title="Instagram" id="instagram"> <i class="material-icons">
-							<svg style="width: 24px; height: 24px" viewBox="0 0 28 26">
-                      <path fill="#FFFFFF"
-									d="M17.107,3.415H7.893c-2.469,0-4.479,2.007-4.479,4.477v4.73v9.486c0,2.469,2.01,4.479,4.479,4.479h14.215
-            c2.469,0,4.479-2.01,4.479-4.479v-9.486v-4.73C26.586,5.421,24.576,3.415,22.107,3.415 M23.393,6.086l0.512-0.004v0.511v3.416
-            l-3.916,0.014l-0.012-3.928L23.393,6.086z M11.693,12.622c0.742-1.028,1.945-1.7,3.307-1.7s2.564,0.672,3.307,1.7
-            c0.484,0.67,0.771,1.49,0.771,2.379c0,2.248-1.828,4.078-4.078,4.078c-2.248,0-4.078-1.83-4.078-4.078
-            C10.922,14.112,11.211,13.292,11.693,12.622 M24.328,22.107c0,1.225-0.994,2.219-2.221,2.219H7.893
-            c-1.225,0-2.219-0.994-2.219-2.219v-9.486h3.459C8.832,13.356,8.664,14.159,8.664,15c0,3.494,2.842,6.335,6.336,6.335
-            s6.336-2.842,6.336-6.335c0-0.842-0.17-1.645-0.467-2.379h3.459V22.107z" />
-                    </svg>
-					</i>
-					</a> <a href="https://es-la.facebook.com/raquischile/" target="_blank"
-						class="btn btn-fab" data-toggle="tooltip" data-placement="left"
-						data-original-title="Facebook" title="Facebook" id="facebook">
-						<i class="material-icons"> <svg
-								style="width: 24px; height: 24px" viewBox="0 0 28 26">
-                      <path fill="#FFFFFF"
-									d="M17.252,11.106V8.65c0-0.922,0.611-1.138,1.041-1.138h2.643V3.459l-3.639-0.015c-4.041,0-4.961,3.023-4.961,4.961v2.701H10v4.178h2.336v11.823h4.916V15.284h3.316l0.428-4.178H17.252z" />
-                    </svg>
-					</i>
-					</a>
-
-				</div>
-				<div class="btn-group">
-					<a href="javascript:void(0)" class="btn btn-success btn-fab"
-						id="main"> 
-					<i class="material-icons"> <svg
-								style="width: 30px; height: 30px" viewBox="0 0 39 25">
-                        <path fill="#FFFFFF"
-									d="M34 28.161c0 1.422 0.813 2.653 2 3.256v0.498c-0.332 0.045-0.671 0.070-1.016 0.070-2.125 0-4.042-0.892-5.398-2.321-0.819 0.218-1.688 0.336-2.587 0.336-4.971 0-9-3.582-9-8s4.029-8 9-8c4.971 0 9 3.582 9 8 0 1.73-0.618 3.331-1.667 4.64-0.213 0.463-0.333 0.979-0.333 1.522zM16 0c8.702 0 15.781 5.644 15.995 12.672-1.537-0.685-3.237-1.047-4.995-1.047-2.986 0-5.807 1.045-7.942 2.943-2.214 1.968-3.433 4.607-3.433 7.432 0 1.396 0.298 2.747 0.867 3.993-0.163 0.004-0.327 0.007-0.492 0.007-0.849 0-1.682-0.054-2.495-0.158-3.437 3.437-7.539 4.053-11.505 4.144v-0.841c2.142-1.049 4-2.961 4-5.145 0-0.305-0.024-0.604-0.068-0.897-3.619-2.383-5.932-6.024-5.932-10.103 0-7.18 7.163-13 16-13z" />
-                    </svg>
-					</i>
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>-->
-
-	<footer style="background: #005954;">
+	<footer style="background-color: transparent;">
 		<div class="container">
-			<div class="box" style="background: #005954; text-align: center;">
+			<div class="box" style="background-color: transparent; text-align: center;">
 				<!--<button class="btn btn-success" style="width: 350px; font-size: 30px;font-family: Open sans;">Reserva tu hora</button> -->
-				<button class="btn btn-success"
+				<button class="btn btn-success" onclick="window.open('http://agendamiento.softwaredentalink.com/agendas/online/cacab0974db09ebb9bd1ce2c71b93da0d6b9f296')" 
 					style="width: 300px; font-size: 30px; /**/ position: center; top: 100; font-family: Harabara;">Reserva
 					tu hora</button>
 				<br> <br> 
@@ -453,12 +386,26 @@
 
 				<div class="footer-social-icons">
 				    <ul class="social-icons">
-				        <li><a href="" class="social-icon _20"> <i class="fa fa-facebook"></i></a></li>
-				        <li><a href="" class="social-icon _20"> <i class="fa fa-twitter"></i></a></li>
-				        <li><a href="" class="social-icon _20"> <i class="fa fa-youtube"></i></a></li>
-				        <li><a href="" class="social-icon _20"> <i class="fa fa-linkedin"></i></a></li>
+				        <li><a href="https://www.facebook.com/quiropracticofrancisco.ubilla" class="social-icon _20" target="_blank"> <i class="fa fa-facebook" style="padding-right: 18px; padding-left: 18px;"></i></a></li>
+				        <li><a href="https://twitter.com/ubilla_benghi" class="social-icon _20" target="_blank"> <i class="fa fa-twitter"></i></a></li>
+				        <!--<li><a href="" class="social-icon _20" target="_blank"> <i class="fa fa-youtube"></i></a></li>-->
+				        <li><a href="https://www.linkedin.com/in/fubilla/" class="social-icon _20" target="_blank"> <i class="fa fa-linkedin"></i></a></li>
+				        <li><a href="https://www.instagram.com/francisco.ubilla.benghi/" target="_blank" class="social-icon _20"> <i class="fa fa-instagram"></i></a></li>
 				    </ul>
 				</div>
+				<aside id="sticky-social" style="padding-top: 150px;">
+				    <ul>
+				        <li><a href="https://www.facebook.com/quiropracticofrancisco.ubilla" class="entypo-facebook" target="_blank"><span>Facebook</span></a></li>
+				        <li><a href="https://twitter.com/ubilla_benghi" class="entypo-twitter" target="_blank"><span>Twitter</span></a></li>
+				        <li><a href="https://www.instagram.com/francisco.ubilla.benghi/" target="_blank" class="social-icon _12 entypo-instagram2"> 
+				        		<i class="fa fa-instagram" style="padding-right: 10px; padding-left: 10px; background-color: #f09433; padding-bottom: 9px;"></i><span>Instagram</span>
+				        	</a>
+				        </li>
+				        <li><a href="https://www.linkedin.com/in/fubilla/" class="entypo-linkedin" target="_blank"><span>LinkedIn</span></a></li>
+				        <!--<li><a href="#" class="entypo-pinterest" target="_blank"><span>Pinterest</span></a></li>-->
+				    </ul>
+				</aside>
+
 			</div>
 		</div>
 	</footer>
@@ -473,23 +420,10 @@
 
 	<!-- Script to Activate the Carousel -->
 	<script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
+	    $('.carousel').carousel({
+	        interval: 5000 //changes the speed
+	    })
     </script>
-
-	<!--<script>
-        /*menu flotante*/
-        $("#main").click(function() {
-          $("#mini-fab").toggleClass('hidden');
-        });
-
-        $(document).ready(function(){
-            $('[data-toggle="tooltip"]').tooltip();  
-        });
-        $.material.init();
-
-    </script>-->
 
 
 </body>
